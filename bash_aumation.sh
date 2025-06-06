@@ -52,3 +52,30 @@ echo "the las two values are ${myBucket[*]:4:5}"
 myBucket+=(ACC Ambuja)
 
 echo "${myBucket}"
+
+
+
+
+
+
+# Set variables
+SOURCE_DIR="home/ankit/Desktop/Automation"
+BACKUP_DIR="home/ankit/Desktop/Automation"
+DATE=$(date +%Y-%m-%d_%H-%M-%S)
+FILENAME="backup_$DATE.tar.gz"
+
+# Create backup directory if not exists
+mkdir -p "$BACKUP_DIR"
+
+# Create compressed archive
+tar -czf "$BACKUP_DIR/$FILENAME" "$SOURCE_DIR"
+
+# Optional: Remove backups older than 7 days
+find "$BACKUP_DIR" -type f -name "*.tar.gz" -mtime +7 -exec rm {} \;
+
+echo "Backup completed successfully at $BACKUP_DIR/$FILENAME"
+
+
+
+
+
