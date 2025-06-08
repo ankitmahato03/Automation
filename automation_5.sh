@@ -73,7 +73,8 @@ generate_log_file
 display_log_content
 
 echo "Script paused for 3 seconds before cleanup..."
-sleep 3 # Pause for a few seconds so you can see the created files
+sleep 3
+# Pause for a few seconds so you can see the created files
 
 # Step 4: Clean up
 cleanup_automation
