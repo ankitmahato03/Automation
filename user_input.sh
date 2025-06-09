@@ -1,4 +1,10 @@
 #!/bin/bash 
 
-read -p "enter your name :-" name
-echo "your name is : $name"
+read -p "Enter your name: " name
+echo "Your name is: $name"
+
+if [[ $name == "ankit" ]]; then
+    echo "Hello admin"
+else
+    echo "Invalid input"
+fi
