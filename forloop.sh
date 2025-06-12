@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#foor loop
 
 for i in {1..20}
 do
