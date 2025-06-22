@@ -49,7 +49,7 @@ echo "the las two values are ${myBucket[*]:4:5}"
 
 # to update the array with new values 
 
-myBucket+=(ACC Ambuja)
+myBucket+=(ACC Ambuja andani)
 
 echo "${myBucket}"
 
