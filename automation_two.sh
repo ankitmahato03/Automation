@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Folder to back up
+# Folder to back up
 SOURCE_DIR="$HOME/Documents"
 
 # Backup destination
