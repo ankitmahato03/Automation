@@ -2,11 +2,11 @@
 wc -l < "$file" counts the number of lines in each file.
 It checks if the file exists using -f.
 
-*.txt matches all .txt files in the current directory.
+*.txt matches all files with the .txt extension in the current directory.
 wc -l < "$file" counts the number of lines in each file.
 It checks if the file exists using -f.
 
-*.txt matches all .txt files in the current directory.
+*.txt matches all files with the .txt extension in the current directory.
 wc -l < "$file" counts the number of lines in each file.
 It checks if the file exists using -f.
 
