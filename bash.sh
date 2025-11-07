@@ -35,7 +35,7 @@ echo "hey guys i am graduate from ${Collage}"
 
 myBucket=(20 50 100% "aam lelo " adani labs SIRIUS_DIGITEK)
 
-echo "i worked for ${myBucket[4]}"
+echo "i worked for ${myBucket[3]}"
 
 #to find the no of values in the arrays 
 
